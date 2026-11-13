@@ -1,0 +1,13 @@
+# Dumps, images, audio and vendor binaries stay local (see README: "Not included")
+*.bin
+*.f1a
+*.wma
+*.wav
+*.m4a
+*.raw
+*.exe
+*.dll
+*.zip
+.venv/
+__pycache__/
+.DS_Store

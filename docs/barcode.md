@@ -17,10 +17,10 @@ the positions 0–10 left to right as printed, word side up:
 
 | Position | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Value | – | – | 128 | 64 | 32 | 16 | – | 8 | **2** | **4** | 1 |
+| Value | – | – | 128 | 64 | 32 | – | 16 | 8 | **2** | **4** | 1 |
 
 Add up the values of the marked positions to get the sound number, so card *N*
-plays `NNN.f1a` (see [filesystem.md](filesystem.md)). Positions 0, 1 and 6 were never
+plays `NNN.f1a` (see [filesystem.md](filesystem.md)). Positions 0, 1 and 5 were never
 marked on any card we checked, which fits the 8 sensors. Note that 2 and 4 are
 swapped compared with plain binary.
 
@@ -50,7 +50,7 @@ Every code we photographed decodes to the number on the other side of its card:
 | 12 motorbike | `00000001101` | 11 |
 | 13 helicopter | `00000001110` | 14 |
 | 14 police car | `00000001011` | 13 |
-| 15 ambulance | `00000100000` | 16 |
+| 15 ambulance | `00000010000` | 16 |
 | 31 washing machine | `00001000000` | 32 |
 | 69 potato | `00010000110` | 70 |
 | 70 | `00010000011` | 69 |
@@ -58,6 +58,17 @@ Every code we photographed decodes to the number on the other side of its card:
 | 72 | `00010000111` | 71 |
 | 127 hat | `00100000000` | 128 |
 | 223 sit down | `00111000000` | 224 |
+
+The 16 position was the hardest to read from a photo. A printed card with the mark at
+position 5 played 16 too low; with it at position 6 the toy read it correctly.
+
+## Printed cards work
+
+We printed replacements for lost cards (59 x 88 mm, folded and glued
+back to back) and the toy reads them like the originals: 65/66, 91/92. Keep the marks
+on 11 equal slots across the full card width, along a white strip about 8.5 mm high
+at the bottom edge, and print them in true black (laser toner). Colour inks and
+inkjet "rich black" may be invisible to the IR sensors.
 
 ## Custom cards
 

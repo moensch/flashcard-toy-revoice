@@ -7,7 +7,9 @@ and a speaker, plus a deck of 112 double-sided cardboard cards (224 words in 14
 categories: animals, vehicles, colors, foods, ...). Push a card through the slot and
 the toy says the word printed on it. Ours came with English audio. They're sold
 under many brand names. Look for a slot on top and a strip of holes or black marks
-along the bottom edge of each card.
+along the bottom edge of each card. [This one on Amazon](https://a.co/d/0aT8sqor)
+looks like a slightly newer version of ours. We haven't opened one, so its board
+and chip may differ.
 
 `data/cards.csv` lists every sound we found (card number, category, word).
 

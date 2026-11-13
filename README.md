@@ -3,6 +3,8 @@
 Replace every sound in a "talking flash cards" toy with your own voice: in our
 case all 224 words in Swiss German, recorded by a parent for their kid.
 
+([This one](https://a.co/d/0aT8sqor) looks like a slightly newer version of ours.)
+
 The toy reads a card and plays a sound from a 512 KB SPI flash chip, driven by a
 JieLi audio MCU. This repo has everything we learned and every tool we used: dump
 the chip with a Raspberry Pi Pico, decode the filesystem and audio, record and

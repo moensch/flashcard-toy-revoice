@@ -1,233 +1,228 @@
 number,category,word
-204,Bodies,eye
-203,Bodies,eyebrow
-206,Bodies,teeth
-205,Bodies,hair
-208,Bodies,nose
-207,Bodies,mouth
-212,Bodies,foot
-211,Bodies,hand
-214,Bodies,face
-213,Bodies,leg
-138,Nature,moon
-137,Nature,sun
-140,Nature,mountain
-139,Nature,beach
-142,Nature,river
-141,Nature,sea
-144,Nature,cloud
-143,Nature,rainbow
-146,Nature,flower
-145,Nature,tree
-218,Action,kick
-217,Action,walk
-220,Action,painting
-219,Action,run
-222,Action,dance
-221,Action,pull
-224,Action,eat
-223,Action,sit down
-22,Daily necessities,schoolbag
-21,Daily necessities,crayon
-24,Daily necessities,bowl
-23,Daily necessities,mirror
-26,Daily necessities,glasses
-25,Daily necessities,book
-28,Daily necessities,comb
-27,Daily necessities,fan
-30,Daily necessities,fridge
-29,Daily necessities,television
-32,Daily necessities,pillow
-31,Daily necessities,washing machine
-34,Daily necessities,washbasin
-33,Daily necessities,sofa
-36,Daily necessities,table lamp
-35,Daily necessities,scissors
-38,Daily necessities,towel
-37,Daily necessities,cup
-40,Daily necessities,clock
-39,Daily necessities,umbrella
-42,Daily necessities,chair
-41,Daily necessities,table
-44,Daily necessities,toothpaste
-43,Daily necessities,soap
-46,Daily necessities,mobile phone
-45,Daily necessities,toothbrush
-48,Daily necessities,fork
-47,Daily necessities,spoon
-68,Vegetables,carrot
-67,Vegetables,lettuce
-70,Vegetables,cabbage
-69,Vegetables,potato
-72,Vegetables,chilli
-71,Vegetables,tomato
-74,Vegetables,pea
-73,Vegetables,pumpkin
-75,Vegetables (card lost),onion
-167,Animals,butterfly
-168,Animals,bee
-50,Foods,milk
-49,Foods,candy
-52,Foods,hamburger
-51,Foods,bread
-54,Foods,ice cream
-53,Foods,sandwich
-58,Foods,biscuit
-57,Foods,juice
-60,Foods,steak
-59,Foods,cake
-62,Foods,cola
-61,Foods,cheese
-64,Foods,coffee
-63,Foods,peanut
-55,Foods (card lost),pizza
-56,Foods (card lost),egg
-65,Foods (card lost),chocolate
-66,Foods (card lost),lollipop
-215,Action (card lost),bounce
-216,Action (card lost),crawl
-209,Bodies (card lost),ear
-210,Bodies (card lost),finger
-1501,Bonus sounds,startup
-1502,Bonus sounds,go to rest
-1503,Bonus sounds,please insert card
-1504,Bonus sounds,please reinsert card
-1505,Bonus sounds,battery low
-129,Costumes,t shirt
-130,Costumes,scarf
-128,Costumes,shirt
-127,Costumes,hat
-133,Costumes,jacket
-134,Costumes,raincoat
-135,Costumes,gloves
-136,Costumes,mask
-131,Costumes,business suit
-132,Costumes,jeans
-125,Costumes,dress
-126,Costumes,socks
-119,Jobs,astronaut
-120,Jobs,police
-117,Jobs,nurse
-118,Jobs,driver
-122,Jobs,doctor
-121,Jobs,firefighter
-124,Jobs,athlete
-123,Jobs,teacher
-114,Shapes,rectangle
-113,Shapes,triangle
-115,Shapes,square
-116,Shapes,circle
-15,Vehicles,ambulance
-16,Vehicles,airplane
-10,Vehicles,train
-9,Vehicles,taxi
-17,Vehicles,truck
-18,Vehicles,steamer
-14,Vehicles,police car
-13,Vehicles,helicopter
-5,Vehicles,watering cart
-6,Vehicles,sports car
-20,Vehicles,fire engine
-19,Vehicles,school bus
 1,Vehicles,bus
 2,Vehicles,jeep
-8,Vehicles,car
-7,Vehicles,excavator
-12,Vehicles,motorbike
-11,Vehicles,bike
-101,Persons,brother
-102,Persons,aunt
-96,Persons,mother
-95,Persons,father
-98,Persons,sister
-97,Persons,grandfather
-86,Fruits,apple
-85,Fruits,durian
-93,Fruits,lemon
-94,Fruits,mango
-79,Fruits,coconut
-80,Fruits,cantaloupe
-112,Colors,grey
-111,Colors,orange
-110,Colors,green
-109,Colors,blue
-103,Colors,purple
-104,Colors,brown
-107,Colors,yellow
-108,Colors,black
-105,Colors,red
-106,Colors,white
-187,Animals,starfish
-188,Animals,parrot
-189,Animals,leopard
-190,Animals,rhinoceros
-155,Animals,rabbit
-156,Animals,owl
-184,Animals,dragonfly
-183,Animals,penguin
-182,Animals,hippo
-181,Animals,whale
-162,Animals,elephant
-161,Animals,monkey
-186,Animals,gorilla
-185,Animals,crocodile
-201,Animals,eagle
-202,Animals,snail
-173,Animals,camel
-174,Animals,kangaroo
-194,Animals,wolf
-193,Animals,octopus
-152,Animals,cow
-151,Animals,fox
-172,Animals,squirrel
-171,Animals,ostrich
-195,Animals,koala
-196,Animals,flamingo
-163,Animals,lion
-164,Animals,tiger
-177,Animals,giraffe
-178,Animals,shark
-169,Animals,bird
-170,Animals,peacock
-200,Animals,jellyfish
-199,Animals,dinosaur
-154,Animals,pig
-153,Animals,goat
-192,Animals,crab
-191,Animals,lobster
-197,Animals,seahorse
-198,Animals,alpaca
-179,Animals,frog
-180,Animals,dolphin
-166,Animals,ant
-165,Animals,bear
-157,Animals,mouse
-158,Animals,horse
-149,Animals,cat
-150,Animals,duck
-147,Animals,dog
-148,Animals,turkey
-159,Animals,snake
-160,Animals,panda
-176,Animals,zebra
-175,Animals,tortoise
 3,Vehicles (card lost),cablecar
 4,Vehicles (card lost),hot air balloon
+5,Vehicles,watering cart
+6,Vehicles,sports car
+7,Vehicles,excavator
+8,Vehicles,car
+9,Vehicles,taxi
+10,Vehicles,train
+11,Vehicles,bike
+12,Vehicles,motorbike
+13,Vehicles,helicopter
+14,Vehicles,police car
+15,Vehicles,ambulance
+16,Vehicles,airplane
+17,Vehicles,truck
+18,Vehicles,steamer
+19,Vehicles,school bus
+20,Vehicles,fire engine
+21,Daily necessities,crayon
+22,Daily necessities,schoolbag
+23,Daily necessities,mirror
+24,Daily necessities,bowl
+25,Daily necessities,book
+26,Daily necessities,glasses
+27,Daily necessities,fan
+28,Daily necessities,comb
+29,Daily necessities,television
+30,Daily necessities,fridge
+31,Daily necessities,washing machine
+32,Daily necessities,pillow
+33,Daily necessities,sofa
+34,Daily necessities,washbasin
+35,Daily necessities,scissors
+36,Daily necessities,table lamp
+37,Daily necessities,cup
+38,Daily necessities,towel
+39,Daily necessities,umbrella
+40,Daily necessities,clock
+41,Daily necessities,table
+42,Daily necessities,chair
+43,Daily necessities,soap
+44,Daily necessities,toothpaste
+45,Daily necessities,toothbrush
+46,Daily necessities,mobile phone
+47,Daily necessities,spoon
+48,Daily necessities,fork
+49,Foods,candy
+50,Foods,milk
+51,Foods,bread
+52,Foods,hamburger
+53,Foods,sandwich
+54,Foods,ice cream
+55,Foods (card lost),pizza
+56,Foods (card lost),egg
+57,Foods,juice
+58,Foods,biscuit
+59,Foods,cake
+60,Foods,steak
+61,Foods,cheese
+62,Foods,cola
+63,Foods,peanut
+64,Foods,coffee
+65,Foods (card lost),chocolate
+66,Foods (card lost),lollipop
+67,Vegetables,lettuce
+68,Vegetables,carrot
+69,Vegetables,potato
+70,Vegetables,cabbage
+71,Vegetables,tomato
+72,Vegetables,chilli
+73,Vegetables,pumpkin
+74,Vegetables,pea
+75,Vegetables (card lost),onion
 76,Vegetables (card lost),spinach
 77,Vegetables (card lost),cucumber
 78,Vegetables (card lost),broccoli
+79,Fruits,coconut
+80,Fruits,cantaloupe
 81,Fruits (card lost),cherry
 82,Fruits (card lost),kiwi fruit
 83,Fruits (card lost),pineapple
 84,Fruits (card lost),peach
+85,Fruits,durian
+86,Fruits,apple
 87,Fruits (card lost),pear
 88,Fruits (card lost),banana
 89,Fruits (card lost),watermelon
 90,Fruits (card lost),orange
 91,Fruits (card lost),strawberry
 92,Fruits (card lost),grape
+93,Fruits,lemon
+94,Fruits,mango
+95,Persons,father
+96,Persons,mother
+97,Persons,grandfather
+98,Persons,sister
 99,Persons (card lost),uncle
 100,Persons (card lost),grandmother
+101,Persons,brother
+102,Persons,aunt
+103,Colors,purple
+104,Colors,brown
+105,Colors,red
+106,Colors,white
+107,Colors,yellow
+108,Colors,black
+109,Colors,blue
+110,Colors,green
+111,Colors,orange
+112,Colors,grey
+113,Shapes,triangle
+114,Shapes,rectangle
+115,Shapes,square
+116,Shapes,circle
+117,Jobs,nurse
+118,Jobs,driver
+119,Jobs,astronaut
+120,Jobs,police
+121,Jobs,firefighter
+122,Jobs,doctor
+123,Jobs,teacher
+124,Jobs,athlete
+125,Costumes,dress
+126,Costumes,socks
+127,Costumes,hat
+128,Costumes,shirt
+129,Costumes,t shirt
+130,Costumes,scarf
+131,Costumes,business suit
+132,Costumes,jeans
+133,Costumes,jacket
+134,Costumes,raincoat
+135,Costumes,gloves
+136,Costumes,mask
+137,Nature,sun
+138,Nature,moon
+139,Nature,beach
+140,Nature,mountain
+141,Nature,sea
+142,Nature,river
+143,Nature,rainbow
+144,Nature,cloud
+145,Nature,tree
+146,Nature,flower
+147,Animals,dog
+148,Animals,turkey
+149,Animals,cat
+150,Animals,duck
+151,Animals,fox
+152,Animals,cow
+153,Animals,goat
+154,Animals,pig
+155,Animals,rabbit
+156,Animals,owl
+157,Animals,mouse
+158,Animals,horse
+159,Animals,snake
+160,Animals,panda
+161,Animals,monkey
+162,Animals,elephant
+163,Animals,lion
+164,Animals,tiger
+165,Animals,bear
+166,Animals,ant
+167,Animals,butterfly
+168,Animals,bee
+169,Animals,bird
+170,Animals,peacock
+171,Animals,ostrich
+172,Animals,squirrel
+173,Animals,camel
+174,Animals,kangaroo
+175,Animals,tortoise
+176,Animals,zebra
+177,Animals,giraffe
+178,Animals,shark
+179,Animals,frog
+180,Animals,dolphin
+181,Animals,whale
+182,Animals,hippo
+183,Animals,penguin
+184,Animals,dragonfly
+185,Animals,crocodile
+186,Animals,gorilla
+187,Animals,starfish
+188,Animals,parrot
+189,Animals,leopard
+190,Animals,rhinoceros
+191,Animals,lobster
+192,Animals,crab
+193,Animals,octopus
+194,Animals,wolf
+195,Animals,koala
+196,Animals,flamingo
+197,Animals,seahorse
+198,Animals,alpaca
+199,Animals,dinosaur
+200,Animals,jellyfish
+201,Animals,eagle
+202,Animals,snail
+203,Bodies,eyebrow
+204,Bodies,eye
+205,Bodies,hair
+206,Bodies,teeth
+207,Bodies,mouth
+208,Bodies,nose
+209,Bodies (card lost),ear
+210,Bodies (card lost),finger
+211,Bodies,hand
+212,Bodies,foot
+213,Bodies,leg
+214,Bodies,face
+215,Action (card lost),bounce
+216,Action (card lost),crawl
+217,Action,walk
+218,Action,kick
+219,Action,run
+220,Action,painting
+221,Action,pull
+222,Action,dance
+223,Action,sit down
+224,Action,eat
 1001,Bonus sounds,noise
 1002,Bonus sounds,noise
 1006,Bonus sounds,noise
@@ -241,6 +236,11 @@ number,category,word
 1015,Bonus sounds,noise
 1016,Bonus sounds,noise
 1017,Bonus sounds,noise
+1501,Bonus sounds,startup
+1502,Bonus sounds,go to rest
+1503,Bonus sounds,please insert card
+1504,Bonus sounds,please reinsert card
+1505,Bonus sounds,battery low
 1506,Bonus sounds,beep
 1507,Bonus sounds,beep
 1513,Bonus sounds,beep

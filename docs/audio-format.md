@@ -18,6 +18,8 @@ release of
 
 The originals on our chip are 16 kHz mono.
 
+Before running any of these, read [safer-encoding.md](safer-encoding.md).
+
 ## The pipeline
 
 ```

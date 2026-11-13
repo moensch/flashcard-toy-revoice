@@ -29,6 +29,7 @@ the SPI bus, so the chip comes off the board for one clean write and goes back o
 | [docs/wiring.md](docs/wiring.md) | Pico ↔ chip pinout, clip vs. socket |
 | [docs/filesystem.md](docs/filesystem.md) | The on-flash filesystem, byte by byte |
 | [docs/audio-format.md](docs/audio-format.md) | F1A, the encoder chain, bitrate vs. space |
+| [docs/safer-encoding.md](docs/safer-encoding.md) | Running the vendor tools with less risk: Windows only for WMA, the rest in Wine |
 | [docs/recording.md](docs/recording.md) | Recording, slicing and reviewing your words |
 | [docs/flashing.md](docs/flashing.md) | Backup, build, write, verify, and why in-circuit fails |
 | [docs/soldering.md](docs/soldering.md) | Shopping list, chip removal and resoldering |
@@ -47,7 +48,9 @@ All host tools are Python 3 (no dependencies besides `mpremote`) plus `ffmpeg` f
 | `tools/slice.py` | Split one recording into a clean 16 kHz WAV per word |
 | `tools/trim_start.sh` | Cut a click off the start of a word |
 | `tools/compare.sh` | Play original → new for a list of cards (macOS) |
-| `windows/encode.bat` | WAV → WMA → F1A, plus a decoded check WAV (on Windows) |
+| `windows/wav2wma.bat` | WAV → WMA only, the one step that needs Windows |
+| `tools/wine_f1a.sh` | WMA → F1A plus a decoded check WAV, with the JieLi tools under Wine |
+| `windows/encode.bat` | WAV → WMA → F1A, all on Windows |
 | `windows/decode.bat` | F1A → WAV (on Windows) |
 | `tools/build_image.py` | Build a new image from a backup plus your F1A files |
 | `tools/write_flash.py` | Write only the changed sectors, verified, directory last |

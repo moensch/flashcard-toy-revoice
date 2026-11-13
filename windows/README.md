@@ -1,5 +1,8 @@
 # Windows tools
 
+**Safer route:** use Windows only for `wav2wma.bat` and run the JieLi tools in Wine.
+See [../docs/safer-encoding.md](../docs/safer-encoding.md). The steps below run everything on Windows.
+
 The F1A encoder chain only works fully on real Windows (see
 [../docs/audio-format.md](../docs/audio-format.md)). Nothing here is installed; it all
 runs from one folder.

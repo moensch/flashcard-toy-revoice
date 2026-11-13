@@ -33,7 +33,7 @@ the SPI bus, so the chip comes off the board for one clean write and goes back o
 | [docs/recording.md](docs/recording.md) | Recording, slicing and reviewing your words |
 | [docs/flashing.md](docs/flashing.md) | Backup, build, write, verify, and why in-circuit fails |
 | [docs/soldering.md](docs/soldering.md) | Shopping list, chip removal and resoldering |
-| [docs/barcode.md](docs/barcode.md) | What we know about the card codes |
+| [docs/barcode.md](docs/barcode.md) | Decoding the card codes, making custom cards |
 
 ## Tools
 
@@ -52,6 +52,7 @@ All host tools are Python 3 (no dependencies besides `mpremote`) plus `ffmpeg` f
 | `tools/wine_f1a.sh` | WMA → F1A plus a decoded check WAV, with the JieLi tools under Wine |
 | `windows/encode.bat` | WAV → WMA → F1A, all on Windows |
 | `windows/decode.bat` | F1A → WAV (on Windows) |
+| `tools/card_code.py` | Card number ↔ printed card code |
 | `tools/build_image.py` | Build a new image from a backup plus your F1A files |
 | `tools/write_flash.py` | Write only the changed sectors, verified, directory last |
 | `tools/pico/` | The MicroPython code the tools run on the Pico |
@@ -89,7 +90,8 @@ python3 tools/write_flash.py backup.bin new.bin
 ## Status
 
 Done and working: the toy speaks all 224 cards plus its "insert card", "go to rest"
-and "battery low" prompts in our voice. The card barcode is still undecoded.
+and "battery low" prompts in our voice. The card code is decoded too, see
+[docs/barcode.md](docs/barcode.md).
 
 ## License
 

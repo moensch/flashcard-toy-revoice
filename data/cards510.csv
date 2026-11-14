@@ -1,0 +1,511 @@
+number,category,word,old_number
+1,Vehicle,bus,1
+2,Vehicle,jeep,2
+3,Vehicle,subway,
+4,Vehicle,sailboat,
+5,Vehicle,cable car,3
+6,Vehicle,hot-air balloon,4
+7,Vehicle,watering cart,5
+8,Vehicle,sports car,6
+9,Vehicle,backhoe,7
+10,Vehicle,tanker truck,
+11,Vehicle,agitator truck,
+12,Vehicle,car,8
+13,Vehicle,taxi,9
+14,Vehicle,double-decker bus,
+15,Vehicle,train,10
+16,Vehicle,bike,11
+17,Vehicle,motorbike,12
+18,Vehicle,helicopter,13
+19,Vehicle,police car,14
+20,Vehicle,ambulance,15
+21,Vehicle,airplane,16
+22,Vehicle,truck,17
+23,Vehicle,steamer,18
+24,Vehicle,school bus,19
+25,Vehicle,fire engine,20
+26,Goods,crayons,
+27,Goods,school bag,
+28,Goods,mirror,23
+29,Goods,bowl,24
+30,Goods,doll,
+31,Goods,book,25
+32,Goods,glasses,26
+33,Goods,fan,27
+34,Goods,comb,28
+35,Goods,television,29
+36,Goods,fridge,30
+37,Goods,washing machine,31
+38,Goods,pillow,32
+39,Goods,sofa,33
+40,Goods,washbasin,34
+41,Goods,chopsticks,
+42,Goods,scissors,35
+43,Goods,table lamp,36
+44,Goods,cup,37
+45,Goods,towel,38
+46,Goods,umbrella,39
+47,Goods,clock,40
+48,Goods,table,41
+49,Goods,chair,42
+50,Goods,soap,43
+51,Goods,toothpaste,44
+52,Goods,toothbrush,45
+53,Goods,mobile phone,46
+54,Goods,kite,
+55,Goods,fork,48
+56,Goods,spoon,47
+57,Food,milk,50
+58,Food,bread,51
+59,Food,noodles,
+60,Food,hamburger,52
+61,Food,sandwich,53
+62,Food,ice cream,54
+63,Food,pizza,55
+64,Food,egg,56
+65,Food,juice,57
+66,Food,biscuit,58
+67,Food,dumpling,
+68,Food,cake,59
+69,Food,rice,
+70,Food,steak,60
+71,Food,cheese,61
+72,Food,cola,62
+73,Food,peanut,63
+74,Food,coffee,64
+75,Food,chocolate,65
+76,Food,candy,49
+77,Food,lollipop,66
+78,Food,lettuce,67
+79,Food,carrot,68
+80,Food,potato,69
+81,Food,cabbage,70
+82,Food,corn,
+83,Food,eggplant,
+84,Food,tomato,71
+85,Food,red pepper,
+86,Food,pumpkin,73
+87,Food,pea,74
+88,Food,onion,75
+89,Food,wax gourd,
+90,Food,white radish,
+91,Food,spinach,76
+92,Food,celery,
+93,Food,cucumber,77
+94,Food,broccoli,78
+95,Fruit,lychee,
+96,Fruit,coconut,79
+97,Fruit,melon,
+98,Fruit,cherry,81
+99,Fruit,kiwi,82
+100,Fruit,pineapple,83
+101,Fruit,peach,84
+102,Fruit,durian,85
+103,Fruit,apple,86
+104,Fruit,pear,87
+105,Fruit,banana,88
+106,Fruit,watermelon,89
+107,Fruit,orange,90
+108,Fruit,strawberry,91
+109,Fruit,grape,92
+110,Fruit,lemon,93
+111,Fruit,dragon fruit,
+112,Fruit,mango,94
+113,Family,father,95
+114,Family,mother,96
+115,Family,grandfather,97
+116,Family,sister,98
+117,Family,uncle,99
+118,Family,grandmother,100
+119,Family,brother,101
+120,Family,aunt,102
+121,Colors,purple,103
+122,Colors,brown,104
+123,Colors,red,105
+124,Colors,white,106
+125,Colors,yellow,107
+126,Colors,black,108
+127,Colors,blue,109
+128,Colors,green,110
+129,Colors,orange,111
+130,Shapes,square,115
+131,Shapes,triangle,113
+132,Shapes,rectangle,114
+133,Shapes,oval,
+134,Shapes,circle,116
+135,Occupation,nurse,117
+136,Occupation,soldier,
+137,Occupation,astronaut,119
+138,Occupation,police,120
+139,Occupation,fireman,121
+140,Occupation,doctor,122
+141,Occupation,teacher,123
+142,Occupation,athlete,124
+143,Clothing,dress,125
+144,Clothing,socks,126
+145,Clothing,hat,127
+146,Clothing,shirt,128
+147,Clothing,pants,
+148,Clothing,T-shirt,129
+149,Clothing,scarf,130
+150,Clothing,business suit,131
+151,Clothing,jeans,132
+152,Clothing,jacket,133
+153,Clothing,raincoat,134
+154,Clothing,sweater,
+155,Clothing,gloves,135
+156,Clothing,sneakers,
+157,Clothing,mask,136
+158,Clothing,skirt,
+159,Natural,sun,137
+160,Natural,moon,138
+161,Natural,mountain,140
+162,Natural,beach,139
+163,Natural,sea,141
+164,Natural,river,142
+165,Natural,rainbow,143
+166,Natural,cloud,144
+167,Natural,tree,145
+168,Natural,flower,146
+169,Animals,dog,147
+170,Animals,hen,
+171,Animals,cat,149
+172,Animals,duck,150
+173,Animals,fox,151
+174,Animals,cow,152
+175,Animals,goat,153
+176,Animals,pigeon,
+177,Animals,rabbit,155
+178,Animals,owl,156
+179,Animals,mouse,157
+180,Animals,horse,158
+181,Animals,snake,159
+182,Animals,panda,160
+183,Animals,monkey,161
+184,Animals,elephant,162
+185,Animals,lion,163
+186,Animals,tiger,164
+187,Animals,bear,165
+188,Animals,ant,166
+189,Animals,butterfly,167
+190,Animals,bee,168
+191,Animals,bird,169
+192,Animals,peacock,170
+193,Animals,ostrich,171
+194,Animals,squirrel,172
+195,Animals,camel,173
+196,Animals,kangaroo,174
+197,Animals,tortoise,175
+198,Animals,zebra,176
+199,Animals,giraffe,177
+200,Animals,shark,178
+201,Animals,frog,179
+202,Animals,dolphin,180
+203,Animals,whale,181
+204,Animals,hippo,182
+205,Animals,penguin,183
+206,Animals,dragonfly,184
+207,Animals,crocodile,185
+208,Animals,gorilla,186
+209,Animals,starfish,187
+210,Animals,parrot,188
+211,Animals,leopard,189
+212,Animals,rhinoceros,190
+213,Animals,lobster,191
+214,Animals,crab,192
+215,Animals,octopus,193
+216,Animals,wolf,194
+217,Animals,koala,195
+218,Animals,flamingo,196
+219,Animals,seahorse,197
+220,Animals,alpaca,198
+221,Animals,dinosaur,199
+222,Animals,jellyfish,200
+223,Animals,eagle,201
+224,Animals,snail,202
+225,Letters,A (apple),
+226,Letters,B,
+227,Letters,C,
+228,Letters,D,
+229,Letters,E,
+230,Letters,F,
+231,Letters,G,
+232,Letters,H,
+233,Letters,I,
+234,Letters,J,
+235,Letters,K,
+236,Letters,L,
+237,Letters,M,
+238,Letters,N,
+239,Letters,O,
+240,Letters,P,
+241,Letters,Q,
+242,Letters,R,
+243,Letters,S,
+244,Letters,T,
+245,Letters,U,
+246,Letters,V,
+247,Letters,W,
+248,Letters,X,
+249,Letters,Y,
+250,Letters,Z,
+251,Numbers,zero,
+252,Numbers,one,
+253,Numbers,two,
+254,Numbers,three,
+255,Numbers,four,
+256,Numbers,five,
+257,Numbers,six,
+258,Numbers,seven,
+259,Numbers,eight,
+260,Numbers,nine,
+261,Numbers,ten,
+262,Numbers,fifty,
+263,Numbers,hundred,
+264,Weekdays,Monday,
+265,Weekdays,Tuesday,
+266,Weekdays,Wednesday,
+267,Weekdays,Thursday,
+268,Weekdays,Friday,
+269,Weekdays,Saturday,
+270,Weekdays,Sunday,
+271,Months,January,
+272,Months,February,
+273,Months,March,
+274,Months,April,
+275,Months,May,
+276,Months,June,
+277,Months,July,
+278,Months,August,
+279,Months,September,
+280,Months,October,
+281,Months,November,
+282,Months,December,
+283,Seasons,spring,
+284,Seasons,summer,
+285,Seasons,autumn,
+286,Seasons,winter,
+287,Body,hair,205
+288,Body,head,
+289,Body,forehead,
+290,Body,eyebrow,203
+291,Body,eye,204
+292,Body,nose,208
+293,Body,mouth,207
+294,Body,tooth,206
+295,Body,tongue,
+296,Body,ear,209
+297,Body,face,214
+298,Body,chest,
+299,Body,neck,
+300,Body,shoulder,
+301,Body,elbow,
+302,Body,arm,
+303,Body,back,
+304,Body,wrist,
+305,Body,hand,211
+306,Body,waist,
+307,Body,hips,
+308,Body,leg,213
+309,Body,knee,
+310,Body,foot,212
+311,Toy,toy car,
+312,Toy,hula hoop,
+313,Toy,little ball,
+314,Toy,puzzle,
+315,Toy,hobby horse,
+316,Toy,blocks,
+317,Toy,tangram,
+318,Toy,model airplane,
+319,Toy,tumbler,
+320,Toy,balloon,
+321,Toy,pinwheel,
+322,Toy,yo-yo,
+323,Toy,scooter,
+324,Toy,toy gun,
+325,Toy,water gun,
+326,Toy,teddy bear,
+327,Toy,slingshot,
+328,Toy,robot,
+329,Toy,frisbee,
+330,Toy,toy house,
+331,Toy,pinball,
+332,Toy,plasticine,
+333,Toy,chess,
+334,Toy,poker,
+335,Amusement,swing,
+336,Amusement,slide,
+337,Amusement,roller coaster,
+338,Amusement,merry-go-round,
+339,Amusement,corsair (pirate-ship ride),
+340,Amusement,Ferris wheel,
+341,Amusement,bumper car,
+342,Amusement,seesaw,
+343,Position,east,
+344,Position,south,
+345,Position,west,
+346,Position,north,
+347,Position,front,
+348,Position,behind,
+349,Position,left,
+350,Position,right,
+351,Position,above,
+352,Position,below,
+353,House,home,
+354,House,door,
+355,House,window,
+356,House,floor,
+357,House,ceiling,
+358,House,wall,
+359,House,bathroom,
+360,House,dining room,
+361,House,bedroom,
+362,House,study,
+363,House,washroom,
+364,House,balcony,
+365,House,living room,
+366,House,room,
+367,House,kitchen,
+368,House,garage,
+369,Place,classroom,
+370,Place,school,
+371,Place,park,
+372,Place,library,
+373,Place,post office,
+374,Place,police office,
+375,Place,hospital,
+376,Place,cinema,
+377,Place,bookstore,
+378,Place,farm,
+379,Place,zoo,
+380,Place,garden,
+381,Place,playground,
+382,Place,kindergarten,
+383,Place,hotel,
+384,Place,gymnasium,
+385,Place,flat,
+386,Place,office,
+387,Place,street,
+388,Place,factory,
+389,Place,shop,
+390,Place,supermarket,
+391,Place,museum,
+392,Place,bank,
+393,Place,country (nation; picture is a flag),
+394,Place,village,
+395,Place,city,
+396,Place,hometown,
+397,Place,station,
+398,Place,parking lot,
+399,Necessity,firewood,
+400,Necessity,rice,=69
+401,Necessity,oil,
+402,Necessity,salt,
+403,Necessity,soy sauce,
+404,Necessity,vinegar,
+405,Necessity,tea,
+406,Necessity,sugar,
+407,Ball,basketball,
+408,Ball,football,
+409,Ball,volleyball,
+410,Ball,baseball,
+411,Ball,badminton,
+412,Ball,table tennis,
+413,Ball,golf,
+414,Ball,softball,
+415,Ball,tennis,
+416,Ball,cricket,
+417,Instrument,guitar,
+418,Instrument,drum,
+419,Instrument,piano,
+420,Instrument,violin,
+421,Instrument,accordion,
+422,Instrument,flute,
+423,Instrument,harmonica,
+424,Instrument,cello,
+425,Instrument,clarinet,
+426,Instrument,saxophone,
+427,Instrument,trumpet,
+428,Instrument,tuba,
+429,Weather,ice,
+430,Weather,water,
+431,Weather,fire,
+432,Weather,day,
+433,Weather,night,
+434,Weather,stars,
+435,Weather,overcast,
+436,Weather,sunny,
+437,Weather,wind,
+438,Weather,rain,
+439,Weather,thunder,
+440,Weather,lightning,
+441,Weather,fog,
+442,Weather,snow,
+443,Weather,hail,
+444,Weather,temperature,
+445,Weather,pressure,
+446,Weather,humidity,
+447,Action,run,219
+448,Action,walk,217
+449,Action,jump,
+450,Action,crawl,216
+451,Action,stand up,
+452,Action,sit down,223
+453,Action,lie,
+454,Action,squat,
+455,Behavior,sleep,
+456,Behavior,get up,
+457,Behavior,get dressed,
+458,Behavior,wash hand,
+459,Behavior,wash face,
+460,Behavior,take a shower,
+461,Behavior,brush teeth,
+462,Behavior,comb hair,
+463,Behavior,drink water,
+464,Behavior,eat,224
+465,Behavior,pee,
+466,Behavior,poop,
+467,Behavior,study,
+468,Behavior,read,
+469,Behavior,draw,220
+470,Behavior,play games,
+471,Behavior,sing,
+472,Behavior,dance,222
+473,Behavior,swim,
+474,Behavior,watch TV,
+475,Emotion,laugh,
+476,Emotion,cry,
+477,Emotion,angry,
+478,Emotion,sad,
+479,Emotion,scared,
+480,Emotion,sick,
+481,Adjectives,tall,
+482,Adjectives,short,
+483,Adjectives,fat,
+484,Adjectives,thin,
+485,Adjectives,long,
+486,Adjectives,short,
+487,Adjectives,big,
+488,Adjectives,small,
+489,Adjectives,fast,
+490,Adjectives,slow,
+491,Adjectives,bright,
+492,Adjectives,dark,
+493,Adjectives,wet,
+494,Adjectives,dry,
+495,Adjectives,soft,
+496,Adjectives,hard,
+497,Adjectives,young,
+498,Adjectives,old,
+499,Adjectives,many,
+500,Adjectives,few,
+501,Adjectives,empty,
+502,Adjectives,full,
+503,Adjectives,on,
+504,Adjectives,off,
+505,Adjectives,tired,
+506,Adjectives,hungry,
+507,Adjectives,full,
+508,Adjectives,thirsty,
+509,Adjectives,cold,
+510,Adjectives,hot,

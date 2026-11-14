@@ -37,6 +37,7 @@ the SPI bus, so the chip comes off the board for one clean write and goes back o
 | [docs/flashing.md](docs/flashing.md) | Backup, build, write, verify, and why in-circuit fails |
 | [docs/soldering.md](docs/soldering.md) | Shopping list, chip removal and resoldering |
 | [docs/barcode.md](docs/barcode.md) | Decoding the card codes, making custom cards |
+| [docs/toy510.md](docs/toy510.md) | The 510-word version: what differs, what we found |
 
 ## Tools
 

@@ -5,7 +5,8 @@ case all 224 words in Swiss German, recorded by a parent for their kid.
 
 (Ours had 224 words and charges over micro-USB; it seems to be discontinued.
 [This 510-word version](https://a.co/d/0aT8sqor) is the current sibling, with USB-C charging,
-a 1 MB flash chip (UC25HQ80) and a 9-bit card code, see [docs/barcode.md](docs/barcode.md).
+a 1 MB flash chip (UC25HQ80) and a 9-bit card code. **It needs no desoldering:** reading
+and writing work through the clip with the chip on the board, see [docs/toy510.md](docs/toy510.md).
 The same approach likely applies.)
 
 The toy reads a card and plays a sound from a 512 KB SPI flash chip, driven by a

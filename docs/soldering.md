@@ -2,6 +2,10 @@
 
 Last soldered in 2003? So had we. This worked on the first evening.
 
+> **Got the 510-word version (USB-C charging)? Skip this page.** Its chip reads and
+> writes reliably through the clip while soldered to the board, so no desoldering is
+> needed. See [toy510.md](toy510.md).
+
 ## Shopping list (≈ $150, all reusable)
 
 | Item | Why |

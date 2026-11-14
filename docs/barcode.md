@@ -70,6 +70,14 @@ on 11 equal slots across the full card width, along a white strip about 8.5 mm h
 at the bottom edge, and print them in true black (laser toner). Colour inks and
 inkjet "rich black" may be invisible to the IR sensors.
 
+`tools/make_card.py` draws such cards (needs Pillow): category, number, word, a simple
+picture and the code strip, front and back side by side on an A4 PDF at true size.
+Add your own words and pictures to its `CARDS` list.
+
+```
+python3 tools/make_card.py fruit 91          # just the strawberry/grape card
+```
+
 ## Custom cards
 
 The 8 bits allow numbers up to 255, so 225–255 are free. For an easter-egg card:
@@ -81,3 +89,25 @@ The 8 bits allow numbers up to 255, so 225–255 are free. For an easter-egg car
 3. Add a `225.f1a` entry to the directory and move the "last entry" flag to it
    (see [filesystem.md](filesystem.md)). We haven't tested yet whether the firmware
    plays numbers above 224.
+
+## The 510-word version
+
+The bigger sibling of this toy (see the README) uses the same 11 positions, with a 9th
+bit and the 2 and 4 bits in plain order:
+
+| Position | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Value | – | 256 | 128 | 64 | 32 | – | 16 | 8 | 4 | 2 | 1 |
+
+Position 5 is a gap. The printer fills it in when positions 4 and 6 are both marked,
+so it shows up black on some cards; it never carries information. Use
+`card_code.py --510`, and `make_card.py OUT --510` for its codes plus its text look
+(cream label, dark blue word). We haven't printed a card for this
+version yet, and haven't measured its card size.
+
+Codes we photographed (printed under → decodes to): 1 → 2, 3 → 4, 6 → 5, 10 → 9,
+31 → 32, 128 → 127, 255 → 256, 342 → 341, 398 → 397, 480 → 479, 510 → 509.
+
+The two versions number their words differently (only 1 "bus" matches in the cards we
+checked), and because of the 2/4 swap about half the codes up to 224 differ too, so
+cards aren't interchangeable.

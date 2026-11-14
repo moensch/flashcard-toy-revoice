@@ -3,7 +3,10 @@
 Replace every sound in a "talking flash cards" toy with your own voice: in our
 case all 224 words in Swiss German, recorded by a parent for their kid.
 
-(Ours had 224 words. [This 510-word version](https://a.co/d/0aT8sqor) looks like a bigger sibling, and the same approach likely applies.)
+(Ours had 224 words and charges over micro-USB; it seems to be discontinued.
+[This 510-word version](https://a.co/d/0aT8sqor) is the current sibling, with USB-C charging,
+a 1 MB flash chip (UC25HQ80) and a 9-bit card code, see [docs/barcode.md](docs/barcode.md).
+The same approach likely applies.)
 
 The toy reads a card and plays a sound from a 512 KB SPI flash chip, driven by a
 JieLi audio MCU. This repo has everything we learned and every tool we used: dump
@@ -37,7 +40,8 @@ the SPI bus, so the chip comes off the board for one clean write and goes back o
 
 ## Tools
 
-All host tools are Python 3 (no dependencies besides `mpremote`) plus `ffmpeg` for audio.
+All host tools are Python 3 (no dependencies besides `mpremote`, and Pillow for
+`make_card.py`) plus `ffmpeg` for audio.
 
 | Tool | Does |
 |---|---|
@@ -52,7 +56,8 @@ All host tools are Python 3 (no dependencies besides `mpremote`) plus `ffmpeg` f
 | `tools/wine_f1a.sh` | WMA → F1A plus a decoded check WAV, with the JieLi tools under Wine |
 | `windows/encode.bat` | WAV → WMA → F1A, all on Windows |
 | `windows/decode.bat` | F1A → WAV (on Windows) |
-| `tools/card_code.py` | Card number ↔ printed card code |
+| `tools/card_code.py` | Card number ↔ printed card code (also the 510-word version) |
+| `tools/make_card.py` | Printable replacement or custom cards, A4 PDF at true size (needs Pillow) |
 | `tools/build_image.py` | Build a new image from a backup plus your F1A files |
 | `tools/write_flash.py` | Write only the changed sectors, verified, directory last |
 | `tools/pico/` | The MicroPython code the tools run on the Pico |

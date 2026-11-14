@@ -67,7 +67,8 @@ position 5 played 16 too low; with it at position 6 the toy read it correctly.
 We printed replacements for lost cards (59 x 88 mm, folded and glued
 back to back) and the toy reads them like the originals: 65/66, 91/92. Keep the marks
 on 11 equal slots across the full card width, along a white strip about 8.5 mm high
-at the bottom edge, and print them in true black (laser toner). Colour inks and
+at the bottom edge, and print them in true black (laser toner). Paper: 120 g/m2,
+which folded and glued is about as heavy as an original card (~200 g/m2). Colour inks and
 inkjet "rich black" may be invisible to the IR sensors.
 
 `tools/make_card.py` draws such cards (needs Pillow): category, number, word, a simple
@@ -102,8 +103,8 @@ bit and the 2 and 4 bits in plain order:
 Position 5 is a gap. The printer fills it in when positions 4 and 6 are both marked,
 so it shows up black on some cards; it never carries information. Use
 `card_code.py --510`, and `make_card.py OUT --510` for its codes plus its text look
-(cream label, dark blue word). We haven't printed a card for this
-version yet, and haven't measured its card size.
+(cream label, dark blue word). Its cards measure 60 x 90 mm
+(`--510` uses that). We haven't printed a card for this version yet.
 
 Codes we photographed (printed under → decodes to): 1 → 2, 3 → 4, 6 → 5, 10 → 9,
 31 → 32, 128 → 127, 255 → 256, 342 → 341, 398 → 397, 480 → 479, 510 → 509.

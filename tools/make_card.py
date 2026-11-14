@@ -8,6 +8,11 @@ Writes OUT.pdf and OUT-preview.png with up to two cards (edit CARDS below to add
 own words and pictures). Each card is front + back side by side: cut, fold on the
 dashed line, glue back to back. Print at 100% and check the 50 mm line; print the
 marks in true black (laser toner), as colour inks may be invisible to the IR sensors.
+
+Paper: 120 g/m2 laser paper. Folded and glued that's two layers, ~240 g/m2, close to
+the original cards (125 of the 510-word toy's cards weigh 137 g: ~200 g/m2). 100 g/m2
+works; 160 g/m2 gives a sturdier card that is noticeably thicker, so check it still
+slides into the slot. Plain 80 g/m2 copy paper is too floppy.
 Needs Pillow (pip install pillow). See docs/barcode.md.
 """
 import sys
@@ -16,7 +21,7 @@ from card_code import WEIGHTS, WEIGHTS_510, encode
 
 DPI = 600
 mm = lambda v: round(v * DPI / 25.4)
-W, H = 59, 88          # card mm
+W, H = 59, 88          # card mm (224-word toy; the 510-word toy's cards are 60 x 90)
 STRIP = 8.5            # white code strip height, mm
 ARIAL = "/System/Library/Fonts/Supplemental/Arial.ttf"
 
@@ -96,13 +101,13 @@ def face(cat, n, word, picture):
     img = Image.new("RGB", (mm(W), mm(H)), BG)
     d = ImageDraw.Draw(img)
     # category pill + number
-    d.rounded_rectangle([mm(13), mm(3.5), mm(46), mm(9.5)], radius=mm(3), fill=style[0])
-    d.text((mm(29.5), mm(6.5)), cat, font=font(3.6), fill=style[1], anchor="mm")
-    d.text((mm(55), mm(5.5)), str(n), font=font(3.2), fill="white", anchor="rm")
-    d.text((mm(29.5), mm(16.5)), word, font=font(6.5), fill=style[2], anchor="mm")
+    d.rounded_rectangle([mm(W / 2 - 16.5), mm(3.5), mm(W / 2 + 16.5), mm(9.5)], radius=mm(3), fill=style[0])
+    d.text((mm(W / 2), mm(6.5)), cat, font=font(3.6), fill=style[1], anchor="mm")
+    d.text((mm(W - 4), mm(5.5)), str(n), font=font(3.2), fill="white", anchor="rm")
+    d.text((mm(W / 2), mm(16.5)), word, font=font(6.5), fill=style[2], anchor="mm")
     # picture panel
-    d.rounded_rectangle([mm(8), mm(24), mm(51), mm(H - STRIP - 4)], radius=mm(2.5), fill=PANEL)
-    picture(d, mm(29.5), mm(24 + (H - STRIP - 28) / 2), mm(12))
+    d.rounded_rectangle([mm(8), mm(24), mm(W - 8), mm(H - STRIP - 4)], radius=mm(2.5), fill=PANEL)
+    picture(d, mm(W / 2), mm(24 + (H - STRIP - 28) / 2), mm(12))
     # code strip: code for the number on the OTHER side
     other = n + 1 if n % 2 else n - 1
     d.rectangle([0, mm(H - STRIP), mm(W), mm(H)], fill="white")
@@ -119,6 +124,7 @@ out, args = sys.argv[1], sys.argv[2:]
 weights = WEIGHTS
 if args and args[0] == "--510":
     weights, style, args = WEIGHTS_510, STYLES["510"], args[1:]
+    W, H = 60, 90
 if args:                                           # optional: only the cards with these front numbers
     CARDS = [c for c in CARDS if str(c[1]) in args]
 
@@ -137,7 +143,9 @@ for k, (cat, n1, w1, p1, n2, w2, p2) in enumerate(CARDS):
         d.line([x0 + mm(W), y, x0 + mm(W), y + mm(1.5)], fill=(90, 90, 90), width=4)
 d.text((mm(105), mm(22)), "Cut along the outer line, fold on the dashed line, glue back to back.",
        font=t, fill="black", anchor="mm")
-d.text((mm(105), mm(28)), "Print at 100% / actual size (no 'fit to page'). Card = 59 x 88 mm.",
+d.text((mm(105), mm(28)), "Print at 100%% / actual size (no 'fit to page'). Card = %g x %g mm." % (W, H),
+       font=t, fill="black", anchor="mm")
+d.text((mm(105), mm(34)), "Paper: 120 g/m2 laser paper (two layers when folded, close to the originals).",
        font=t, fill="black", anchor="mm")
 # 50 mm scale check
 ys = mm(40 + 2 * (H + 12) + 6)
